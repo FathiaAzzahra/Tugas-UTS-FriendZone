@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">FriendZone</string>
+
+    <string-array name="data_name">
+        <item>Alghi</item>
+        <item>Ila</item>
+        <item>Ike</item>
+        <item>Nia</item>
+    </string-array>
+
+    <string-array name="data_nim">
+        <item>10116014</item>
+        <item>10116089</item>
+        <item>10116290</item>
+        <item>10116111</item>
+    </string-array>
+
+    <string-array name="data_kelas">
+        <item>IF-9</item>
+        <item>IF-8</item>
+        <item>IF-3</item>
+        <item>IF-11</item>
+    </string-array>
+
+    <string-array name="data_telepon">
+        <item>081237687676</item>
+        <item>086755678865</item>
+        <item>081179236482</item>
+        <item>081289648768</item>
+    </string-array>
+
+    <string-array name="data_email">
+        <item>alghi@gmail.com</item>
+        <item>ila@gmail.com</item>
+        <item>ike@gmail.com</item>
+        <item>nia@gmail.com</item>
+    </string-array>
+
+    <string-array name="data_social">
+        <item>ig:alghii</item>
+        <item>ig:mathadict</item>
+        <item>ig:beautydoc</item>
+        <item>ig:ninaai</item>
+    </string-array>
+
+</resources>
