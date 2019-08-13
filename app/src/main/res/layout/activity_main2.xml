@@ -4,15 +4,100 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".view.Main2Activity">
 
-        <FrameLayout
-            android:id="@+id/mFragmentContainer"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_above="@id/mBottomNavBar">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="PROFILE"
+                    android:textSize="25sp"
 
-        </FrameLayout>
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/pasfoto"/>
+                        <TextView
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:textColor="#000"
+                            android:padding="5dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:text="NIM                     : 10116014 "/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:text="Nama                  : Fathia Azzahra"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:text="Kelas                   :  IF-1   "/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+
+                            android:textColor="#000"
+                            android:padding="5dp"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:text="Deskripsi diri      : "/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:text="Mahasiswa Unikom semester 6 yang saat ini sedang belajar
+                 pembuatan aplikasi android     "/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <Button
+                            android:id="@+id/btnLogout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/btn_logout" />
+
+                </LinearLayout>
+        </LinearLayout>
 
         <android.support.design.widget.BottomNavigationView
             android:id ="@+id/mBottomNavBar"

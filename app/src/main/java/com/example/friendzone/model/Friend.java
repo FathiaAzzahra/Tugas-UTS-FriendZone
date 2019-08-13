@@ -1,4 +1,4 @@
-package com.example.friendzone;
+package com.example.friendzone.model;
 
 //tanggal 18/05/2019
 //NIM : 10116014

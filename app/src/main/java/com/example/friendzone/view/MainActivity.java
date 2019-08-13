@@ -1,4 +1,8 @@
-package com.example.friendzone;
+package com.example.friendzone.view;
+//tanggal 12/08/2019
+//NIM : 10116014
+//NAMA : Fathia Azzahra
+//Kelas : IF 1
 
 import android.content.Intent;
 import android.support.v4.view.ViewPager;
@@ -14,10 +18,10 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-//tanggal 18/05/2019
-//NIM : 10116014
-//NAMA : Fathia Azzahra
-//Kelas : IF 1
+import com.example.friendzone.R;
+import com.example.friendzone.presenter.SliderAdapter;
+
+
 
 public class MainActivity extends AppCompatActivity {
     ImageView bgapp;
@@ -61,16 +65,16 @@ public class MainActivity extends AppCompatActivity {
         mStartButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openActivity2();
+                openActivity3();
                 finish();
 
             }
         });
     }
 
-    public void openActivity2()
+    public void openActivity3()
     {
-        Intent intent = new Intent(MainActivity.this,Main2Activity.class);
+        Intent intent = new Intent(MainActivity.this, Main3Activity.class);
         startActivity(intent);
     }
 

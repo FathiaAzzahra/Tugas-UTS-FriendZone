@@ -1,4 +1,4 @@
-package com.example.friendzone;
+package com.example.friendzone.presenter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.example.friendzone.R;
 
 //tanggal 18/05/2019
 //NIM : 10116014

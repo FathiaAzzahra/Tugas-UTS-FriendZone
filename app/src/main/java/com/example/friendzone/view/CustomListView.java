@@ -1,4 +1,4 @@
-package com.example.friendzone;
+package com.example.friendzone.view;
 import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+
+import com.example.friendzone.R;
 
 //tanggal 18/05/2019
 //NIM : 10116014
@@ -29,7 +31,7 @@ public class CustomListView extends ArrayAdapter<String> {
     public CustomListView(Activity context, String[] nama,String[] nim,String[] kelas,String[] tlp,
                             String[] email,String[] sosmed)
     {
-        super(context,R.layout.listview_layout,nama);
+        super(context, R.layout.listview_layout,nama);
         this.context=context;
         this.nama=nama;
         this.nim=nim;

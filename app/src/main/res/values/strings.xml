@@ -1,46 +1,38 @@
 <resources>
     <string name="app_name">FriendZone</string>
+    <string name="nama">Nama</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="e_mail">E-mail</string>
 
-    <string-array name="data_name">
-        <item>Alghi</item>
-        <item>Ila</item>
-        <item>Ike</item>
-        <item>Nia</item>
-    </string-array>
 
-    <string-array name="data_nim">
-        <item>10116014</item>
-        <item>10116089</item>
-        <item>10116290</item>
-        <item>10116111</item>
-    </string-array>
+    <string name="title_activity_login">Sign in or create an account</string>
+    <string name="title_activity_main">Dashboard</string>
 
-    <string-array name="data_kelas">
-        <item>IF-9</item>
-        <item>IF-8</item>
-        <item>IF-3</item>
-        <item>IF-11</item>
-    </string-array>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_repeat">Password (Diulang)</string>
+    <string name="prompt_name">Nama Lengkap</string>
+    <string name="prompt_phone">Nomor Telepon</string>
+    <string name="action_sign_in">Masuk atau Mendaftar</string>
+    <string name="action_sign_in_short">Masuk</string>
+    <string name="action_register">Buat akun baru?</string>
+    <string name="action_have_account">Sudah memiliki akun?</string>
+    <string name="action_submit">Kirim</string>
+    <string name="error_invalid_email">Alamat email tidak valid</string>
+    <string name="error_unavailable_email">Email sudah pernah terdaftar</string>
+    <string name="error_invalid_password">Password tidak valid</string>
+    <string name="error_invalid_password_repeat">Ulangi password dengan benar</string>
+    <string name="error_incorrect_password">Password yang Anda masukkan salah</string>
+    <string name="error_old_password">Password lama salah</string>
+    <string name="error_field_required">Kolom ini tidak boleh dikosongi</string>
+    <string name="permission_rationale">"Izin kontak diperlukan untuk menyediakan penyelesaian email."</string>
+    <string name="login_header_information">Isilah form ini dengan akun login anda,
+        atau buat akun terlebih dahulu untuk dapat menggunakan aplikasi ini.</string>
 
-    <string-array name="data_telepon">
-        <item>081237687676</item>
-        <item>086755678865</item>
-        <item>081179236482</item>
-        <item>081289648768</item>
-    </string-array>
+    <string name="txt_welcome">Selamat datang</string>
 
-    <string-array name="data_email">
-        <item>alghi@gmail.com</item>
-        <item>ila@gmail.com</item>
-        <item>ike@gmail.com</item>
-        <item>nia@gmail.com</item>
-    </string-array>
-
-    <string-array name="data_social">
-        <item>ig:alghii</item>
-        <item>ig:mathadict</item>
-        <item>ig:beautydoc</item>
-        <item>ig:ninaai</item>
-    </string-array>
+    <string name="btn_logout">Logout</string>
 
 </resources>
